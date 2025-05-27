@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Add Flashcard</title></head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-card {
+            background-color: white;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            width: 400px;
+        }
+
+        h2 {
+            margin-top: 0;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        input[type="text"], textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1em;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .actions {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .actions a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .actions a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <body>
+        <form class="form-card" method="POST">
+          <h2>Add a Flashcard</h2>
+      
+          <label for="question">Question:</label>
+          <textarea id="question" name="question" required></textarea>
+      
+          <label for="answer">Answer:</label>
+          <textarea id="answer" name="answer" required></textarea>
+      
+          <label for="category">Category:</label>
+          <select id="category" name="category" required>
+            <option value="">Select a category</option>
+            <option value="Vocabulary">Vocabulary</option>
+            <option value="Math">Math</option>
+            <option value="Writing">Writing</option>
+          </select>
+      
+          <label for="tags">Tags (comma-separated):</label>
+          <input type="text" id="tags" name="tags" placeholder="e.g., algebra, easy, GRE">
+      
+          <div class="actions">
+            <a href="{{ url_for('index') }}">← Back</a>
+            <button type="submit">Add Card</button>
+          </div>
+        </form>
+      </body>
+</html>

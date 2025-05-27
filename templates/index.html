@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    <head><title>FLASHCARDS</title></head>
+    <style>
+        body {
+            font-family: Ariel, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding-top: 60px; /* prevent content from hiding under the scoreboard */
+        }
+
+        .scoreboard {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #ffffff;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            padding: 10px 0;
+            text-align: center;
+            font-size: 1.1em;
+            z-index: 999;
+        }
+
+        .category-filters {
+            margin-bottom: 5px;
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            margin: 0 5px;
+            font-size: 0.9em;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            background-color: #eee;
+            cursor: pointer;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        .filter-btn.active {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .filter-btn:hover {
+            opacity: 0.9;
+        }
+
+        .card-container {
+            perspective: 1000px;
+        }
+
+        .flashcard {
+            width: 400px;
+            min-height: 200px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.8s, height 0.3s ease;
+            cursor: pointer;
+            border: 4px solid transparent;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        .flashcard.category-vocabulary {
+            border-color: #007bff;
+        }
+
+        .flashcard.category-math {
+            border-color: #28a745;
+        }
+
+        .flashcard.category-writing {
+            border-color: #6f42c1;
+        }
+
+        .flipped {
+            transform: rotateY(180deg);
+        }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            backface-visibility: hidden;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            text-align: center;
+            transform: rotateY(0deg);
+        }
+
+        .card-front, .card-back {
+            min-height: 200px;
+            padding-bottom: 20px;
+        }
+
+        .card-front {
+            z-index: 2;
+        }
+
+        .card-back {
+            transform: rotateY(180deg);
+        }
+
+        .category-label {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: bold;
+            color: white;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .category-vocabulary {
+            background-color: #007bff;
+        }
+
+        .category-math {
+            background-color: #28a745;
+        }
+
+        .category-writing {
+            background-color: #6f42c1;
+        }
+
+
+        .response-buttons button {
+            padding: 10px 15px;
+            font-size: 0.95em;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: white;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.2s ease;
+        }
+
+        .response-buttons button:first-child {
+            background-color: #28a745; /* Green */
+        }
+
+        .response-buttons button:first-child:hover {
+            background-color: #218838;
+        }
+
+        .response-buttons button:last-child {
+            background-color: #dc3545; /* Red */
+        }
+
+        .response-buttons button:last-child:hover {
+            background-color: #c82333;
+        }
+
+        .cta-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background-color: #007bff;
+            color: white;
+            font-size: 32px;
+            border: none;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 60px;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+            z-index: 1000;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <body>
+        <div class="scoreboard">
+            ✅ Correct: <span id="score-right">0</span> |
+            ❌ Incorrect: <span id="score-wrong">0</span>
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="Vocabulary">Vocabulary</button>
+                <button class="filter-btn active" data-category="Math">Math</button>
+                <button class="filter-btn active" data-category="Writing">Writing</button>
+            </div>
+        </div>
+        <div class="card-container" onclick="flipCard(event)">
+            <div class="flashcard" id="flashcard">
+              <div class="card-face card-front">
+                <div id="category-label" class="category-label">Category</div>
+                <h2>Question</h2>
+                <p id="question-text">Loading...</p>
+                <p style="font-size: 0.9em; color: #666;">Click to flip</p>
+                <p id="question-tags"></p>
+              </div>
+              <div class="card-face card-back">
+                <h2>Answer</h2>
+                <p id="answer-text">Loading...</p>
+                <div class="response-buttons">
+                  <button onclick="markAnswer(true)">✅ Got it Right</button>
+                  <button onclick="markAnswer(false)">❌ Got it Wrong</button>
+                </div>
+                <p style="font-size: 0.9em; color: #666;">Click card to flip back</p>
+              </div>
+            </div>
+          </div>
+        <a href="{{ url_for('add') }}" class="cta-button">➕</a>
+    <script>
+        const flashcards = {{ cards | tojson }};
+
+        let selectedCategories = ["Vocabulary", "Math", "Writing"];
+        let filteredFlashcards = [...flashcards];
+
+        let currentCardIndex = -1;
+        
+        let scoreRight = 0;
+        let scoreWrong = 0;
+
+        function loadNewCard() {
+            // check if there are no flashcards left
+            if (filteredFlashcards.length === 0) {
+                document.getElementById("question-text").textContent = "No cards available for selected categories.";
+                document.getElementById("answer-text").textContent = "";
+                document.getElementById("category-label").textContent = "";
+                document.getElementById("flashcard").className = "flashcard";
+                return;
+            }
+
+            // Grab a random flashcard from the filtered list
+            const randomIndex = Math.floor(Math.random() * filteredFlashcards.length);
+            const card = filteredFlashcards[randomIndex];
+
+            document.getElementById("question-text").textContent = card.question;
+            document.getElementById("answer-text").textContent = card.answer;
+            document.getElementById("question-tags").textContent = card.tags ? `Tags: ${card.tags.join(', ')}` : '';
+            
+            const categoryLabel = document.getElementById("category-label");
+            categoryLabel.textContent = card.category || "Uncategorized";
+
+            const flashcard = document.getElementById("flashcard");
+            flashcard.className = "flashcard"; // reset existing category class
+
+            // Set class based on category
+            categoryLabel.className = "category-label"; // reset first
+            if (card.category) {
+                const categoryClass = "category-" + card.category.toLowerCase();
+                categoryLabel.className = "category-label " + categoryClass;
+                flashcard.classList.add(categoryClass); // apply border colors
+            }
+
+            // Ensure card is front-facing
+            document.getElementById('flashcard').classList.remove('flipped');
+
+            // 🔧 Add this to adjust the card height smoothly after the flip
+            setTimeout(() => {
+                const front = flashcard.querySelector(".card-front");
+                const back = flashcard.querySelector(".card-back");
+
+                const newHeight = flashcard.classList.contains("flipped")
+                ? back.scrollHeight
+                : front.scrollHeight;
+
+                flashcard.style.height = newHeight + "px";
+            }, 300); // Delay matches flip animation (0.8s), adjust if needed
+        }
+
+        window.onload = loadNewCard;
+
+        function flipCard(event) {
+            if (event && event.target.tagName === "BUTTON") return;
+
+            const card = document.getElementById('flashcard');
+            card.classList.toggle('flipped');
+
+            // 🔧 Add this to adjust the card height smoothly after the flip
+            setTimeout(() => {
+                const front = flashcard.querySelector(".card-front");
+                const back = flashcard.querySelector(".card-back");
+
+                const newHeight = flashcard.classList.contains("flipped")
+                ? back.scrollHeight
+                : front.scrollHeight;
+
+                flashcard.style.height = newHeight + "px";
+            }, 300); // Delay matches flip animation (0.8s), adjust if needed
+        }
+
+        function markAnswer(correct) {
+            if (correct) {
+                scoreRight++;
+                document.getElementById("score-right").textContent = scoreRight;
+                console.log("✅ User got it right");
+            } else {
+                scoreWrong++;
+                document.getElementById("score-wrong").textContent = scoreWrong;
+                console.log("❌ User got it wrong");
+            }
+
+            loadNewCard(); // Immediately load the next card
+        }
+
+        document.querySelectorAll(".filter-btn").forEach(button => {
+            button.addEventListener("click", () => {
+                const category = button.getAttribute("data-category");
+                button.classList.toggle("active");
+
+                if (button.classList.contains("active")) {
+                selectedCategories.push(category);
+                } else {
+                selectedCategories = selectedCategories.filter(cat => cat !== category);
+                }
+
+                // Update the filtered list
+                filteredFlashcards = flashcards.filter(card => selectedCategories.includes(card.category));
+                loadNewCard();
+            });
+        });
+    </script>
+    </body>
+</html>

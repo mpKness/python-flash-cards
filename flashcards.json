@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What is the definition of 'obfuscate'?",
+        "answer": "To make something unclear or unintelligible; to confuse.",
+        "category": "Vocabulary",
+        "tags": ["verbal", "definition"]
+    },
+    {
+        "question": "Simplify: (2x^2 - 3x + 4) - (x^2 + x - 6)",
+        "answer": "x^2 - 4x + 10",
+        "category": "Math",
+        "tags": ["algebra", "polynomials"]
+    },
+    {
+        "question": "What does 'capricious' mean?",
+        "answer": "Given to sudden changes of mood or behavior; unpredictable.",
+        "category": "Vocabulary",
+        "tags": ["verbal", "synonym"]
+    },
+    {
+        "question": "Solve for x: 3x - 7 = 11",
+        "answer": "x = 6",
+        "category": "Math",
+        "tags": ["linear equations", "algebra"]
+    },
+    {
+        "question": "What is the meaning of 'laconic'?",
+        "answer": "Using very few words; concise to the point of seeming rude or mysterious.",
+        "category": "Vocabulary",
+        "tags": ["concise", "style"]
+    },
+    {
+        "question": "Evaluate: 5! (5 factorial)",
+        "answer": "120",
+        "category": "Math",
+        "tags": ["factorials", "arithmetic"]
+    },
+    {
+        "question": "Briefly explain the issue in this essay prompt:\n'Governments should focus more on solving the immediate problems of today rather than on trying to solve the anticipated problems of the future.'",
+        "answer": "The issue is whether present concerns should outweigh future planning. It asks the writer to evaluate short-term vs. long-term governance priorities.",
+        "category": "Writing",
+        "tags": ["essay", "critical thinking"]
+    },
+    {
+        "question": "Convert 0.75 to a fraction.",
+        "answer": "3/4",
+        "category": "Math",
+        "tags": ["fractions", "decimals"]
+    },
+    {
+        "question": "What is a synonym for 'ephemeral'?",
+        "answer": "Short-lived or transient.",
+        "category": "Vocabulary",
+        "tags": ["synonym", "temporal"]
+    },
+    {
+        "question": "What is the purpose of the GRE Argument Essay?",
+        "answer": "To critique the logic and evidence used in a given argument.",
+        "category": "Writing",
+        "tags": ["GRE", "argument"]
+    },
+    {
+        "question": "If 4x - 7 = 2x + 5, what is x?",
+        "answer": "x = 6",
+        "category": "Math",
+        "tags": ["linear equations", "solving"]
+    },
+    {
+        "question": "What is the antonym of 'audacious'?",
+        "answer": "Timid or cautious.",
+        "category": "Vocabulary",
+        "tags": ["antonym", "courage"]
+    },
+    {
+        "question": "What is the square root of 144?",
+        "answer": "12",
+        "category": "Math",
+        "tags": ["square roots", "arithmetic"]
+    },
+    {
+        "question": "Define 'anomaly'.",
+        "answer": "Something that deviates from what is standard, normal, or expected.",
+        "category": "Vocabulary",
+        "tags": ["definition", "exception"]
+    },
+    {
+        "question": "How should you structure a GRE Issue Essay?",
+        "answer": "Introduction, two or more body paragraphs with examples, and a conclusion.",
+        "category": "Writing",
+        "tags": ["GRE", "essay", "structure"]
+    }
+]
