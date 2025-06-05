@@ -43,12 +43,6 @@
             transition: background-color 0.2s, color 0.2s;
         }
 
-        .filter-btn.active {
-            background-color: #007bff;
-            color: white;
-            border-color: #007bff;
-        }
-
         .filter-btn:hover {
             opacity: 0.9;
         }
@@ -166,38 +160,104 @@
             background-color: #c82333;
         }
 
-        .cta-button {
+        .hamburger {
+            width: 24px;
+            height: 18px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .hamburger span {
+            display: block;
+            height: 3px;
+            background: white;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+
+        /* Animation to "X" when active */
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        .fab-menu {
             position: fixed;
             bottom: 30px;
             right: 30px;
+            z-index: 1000;
+        }
+
+        .cta-button {
             width: 60px;
             height: 60px;
+            border-radius: 50%;
             background-color: #007bff;
             color: white;
             font-size: 32px;
             border: none;
-            border-radius: 50%;
-            text-align: center;
-            line-height: 60px;
-            text-decoration: none;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s ease;
-            z-index: 1000;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
         }
 
         .cta-button:hover {
             background-color: #0056b3;
+        }
+
+        .fab-actions {
+            position: absolute;
+            bottom: 70px;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 10px;
+            opacity: 0;
+            transform: translateY(10px);
+            pointer-events: none;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+        }
+
+        .fab-actions.show {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+
+        .fab-action {
+            background-color: #343a40;
+            color: white;
+            padding: 10px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9em;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            transition: background-color 0.2s;
+        }
+
+        .fab-action:hover {
+            background-color: #23272b;
         }
     </style>
     <body>
         <div class="scoreboard">
             ✅ Correct: <span id="score-right">0</span> |
             ❌ Incorrect: <span id="score-wrong">0</span>
-            <div class="category-filters">
-                <button class="filter-btn active" data-category="Vocabulary">Vocabulary</button>
-                <button class="filter-btn active" data-category="Math">Math</button>
-                <button class="filter-btn active" data-category="Writing">Writing</button>
-            </div>
+            <div class="category-filters" id="category-filters"></div>
         </div>
         <div class="card-container" onclick="flipCard(event)">
             <div class="flashcard" id="flashcard">
@@ -219,117 +279,26 @@
               </div>
             </div>
           </div>
-        <a href="{{ url_for('add') }}" class="cta-button">➕</a>
-    <script>
-        const flashcards = {{ cards | tojson }};
-
-        let selectedCategories = ["Vocabulary", "Math", "Writing"];
-        let filteredFlashcards = [...flashcards];
-
-        let currentCardIndex = -1;
-        
-        let scoreRight = 0;
-        let scoreWrong = 0;
-
-        function loadNewCard() {
-            // check if there are no flashcards left
-            if (filteredFlashcards.length === 0) {
-                document.getElementById("question-text").textContent = "No cards available for selected categories.";
-                document.getElementById("answer-text").textContent = "";
-                document.getElementById("category-label").textContent = "";
-                document.getElementById("flashcard").className = "flashcard";
-                return;
-            }
-
-            // Grab a random flashcard from the filtered list
-            const randomIndex = Math.floor(Math.random() * filteredFlashcards.length);
-            const card = filteredFlashcards[randomIndex];
-
-            document.getElementById("question-text").textContent = card.question;
-            document.getElementById("answer-text").textContent = card.answer;
-            document.getElementById("question-tags").textContent = card.tags ? `Tags: ${card.tags.join(', ')}` : '';
-            
-            const categoryLabel = document.getElementById("category-label");
-            categoryLabel.textContent = card.category || "Uncategorized";
-
-            const flashcard = document.getElementById("flashcard");
-            flashcard.className = "flashcard"; // reset existing category class
-
-            // Set class based on category
-            categoryLabel.className = "category-label"; // reset first
-            if (card.category) {
-                const categoryClass = "category-" + card.category.toLowerCase();
-                categoryLabel.className = "category-label " + categoryClass;
-                flashcard.classList.add(categoryClass); // apply border colors
-            }
-
-            // Ensure card is front-facing
-            document.getElementById('flashcard').classList.remove('flipped');
-
-            // 🔧 Add this to adjust the card height smoothly after the flip
-            setTimeout(() => {
-                const front = flashcard.querySelector(".card-front");
-                const back = flashcard.querySelector(".card-back");
-
-                const newHeight = flashcard.classList.contains("flipped")
-                ? back.scrollHeight
-                : front.scrollHeight;
-
-                flashcard.style.height = newHeight + "px";
-            }, 300); // Delay matches flip animation (0.8s), adjust if needed
-        }
-
-        window.onload = loadNewCard;
-
-        function flipCard(event) {
-            if (event && event.target.tagName === "BUTTON") return;
-
-            const card = document.getElementById('flashcard');
-            card.classList.toggle('flipped');
-
-            // 🔧 Add this to adjust the card height smoothly after the flip
-            setTimeout(() => {
-                const front = flashcard.querySelector(".card-front");
-                const back = flashcard.querySelector(".card-back");
-
-                const newHeight = flashcard.classList.contains("flipped")
-                ? back.scrollHeight
-                : front.scrollHeight;
-
-                flashcard.style.height = newHeight + "px";
-            }, 300); // Delay matches flip animation (0.8s), adjust if needed
-        }
-
-        function markAnswer(correct) {
-            if (correct) {
-                scoreRight++;
-                document.getElementById("score-right").textContent = scoreRight;
-                console.log("✅ User got it right");
-            } else {
-                scoreWrong++;
-                document.getElementById("score-wrong").textContent = scoreWrong;
-                console.log("❌ User got it wrong");
-            }
-
-            loadNewCard(); // Immediately load the next card
-        }
-
-        document.querySelectorAll(".filter-btn").forEach(button => {
-            button.addEventListener("click", () => {
-                const category = button.getAttribute("data-category");
-                button.classList.toggle("active");
-
-                if (button.classList.contains("active")) {
-                selectedCategories.push(category);
-                } else {
-                selectedCategories = selectedCategories.filter(cat => cat !== category);
-                }
-
-                // Update the filtered list
-                filteredFlashcards = flashcards.filter(card => selectedCategories.includes(card.category));
-                loadNewCard();
-            });
-        });
-    </script>
+          <div class="fab-menu">
+            <button class="cta-button" onclick="toggleFab()" aria-label="Menu">
+                <div class="hamburger" id="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </button>
+            <div class="fab-actions" id="fab-actions">
+              <a href="{{ url_for('add') }}" class="fab-action">➕</a>
+              <a href="/download" class="fab-action">⬇️</a>
+              <label for="file-upload" class="fab-action" style="cursor: pointer;">📂 Upload</label>
+              <input type="file" id="file-upload" accept=".json" style="display: none;">
+              <a href="#" class="fab-action" onclick="clearUserFlashcards()">🗑 Clear My Cards</a>
+            </div>
+          </div>
+          <script>
+            const serverFlashcards = {{ cards | tojson }};
+          </script>
+          <script type="module" src="{{ url_for('static', filename='scripts/utils.js') }}"></script>
+          <script type="module" src="{{ url_for('static', filename='scripts/main.js') }}"></script>          
     </body>
 </html>

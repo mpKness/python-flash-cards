@@ -3,90 +3,1704 @@
         "question": "What is the definition of 'obfuscate'?",
         "answer": "To make something unclear or unintelligible; to confuse.",
         "category": "Vocabulary",
-        "tags": ["verbal", "definition"]
+        "tags": [
+            "verbal",
+            "definition"
+        ]
     },
     {
         "question": "Simplify: (2x^2 - 3x + 4) - (x^2 + x - 6)",
         "answer": "x^2 - 4x + 10",
         "category": "Math",
-        "tags": ["algebra", "polynomials"]
+        "tags": [
+            "algebra",
+            "polynomials"
+        ]
     },
     {
         "question": "What does 'capricious' mean?",
         "answer": "Given to sudden changes of mood or behavior; unpredictable.",
         "category": "Vocabulary",
-        "tags": ["verbal", "synonym"]
+        "tags": [
+            "verbal",
+            "synonym"
+        ]
     },
     {
         "question": "Solve for x: 3x - 7 = 11",
         "answer": "x = 6",
         "category": "Math",
-        "tags": ["linear equations", "algebra"]
+        "tags": [
+            "linear equations",
+            "algebra"
+        ]
     },
     {
         "question": "What is the meaning of 'laconic'?",
         "answer": "Using very few words; concise to the point of seeming rude or mysterious.",
         "category": "Vocabulary",
-        "tags": ["concise", "style"]
+        "tags": [
+            "concise",
+            "style"
+        ]
     },
     {
         "question": "Evaluate: 5! (5 factorial)",
         "answer": "120",
         "category": "Math",
-        "tags": ["factorials", "arithmetic"]
+        "tags": [
+            "factorials",
+            "arithmetic"
+        ]
     },
     {
         "question": "Briefly explain the issue in this essay prompt:\n'Governments should focus more on solving the immediate problems of today rather than on trying to solve the anticipated problems of the future.'",
         "answer": "The issue is whether present concerns should outweigh future planning. It asks the writer to evaluate short-term vs. long-term governance priorities.",
         "category": "Writing",
-        "tags": ["essay", "critical thinking"]
+        "tags": [
+            "essay",
+            "critical thinking"
+        ]
     },
     {
         "question": "Convert 0.75 to a fraction.",
         "answer": "3/4",
         "category": "Math",
-        "tags": ["fractions", "decimals"]
+        "tags": [
+            "fractions",
+            "decimals"
+        ]
     },
     {
         "question": "What is a synonym for 'ephemeral'?",
         "answer": "Short-lived or transient.",
         "category": "Vocabulary",
-        "tags": ["synonym", "temporal"]
+        "tags": [
+            "synonym",
+            "temporal"
+        ]
     },
     {
         "question": "What is the purpose of the GRE Argument Essay?",
         "answer": "To critique the logic and evidence used in a given argument.",
         "category": "Writing",
-        "tags": ["GRE", "argument"]
+        "tags": [
+            "GRE",
+            "argument"
+        ]
     },
     {
         "question": "If 4x - 7 = 2x + 5, what is x?",
         "answer": "x = 6",
         "category": "Math",
-        "tags": ["linear equations", "solving"]
+        "tags": [
+            "linear equations",
+            "solving"
+        ]
     },
     {
         "question": "What is the antonym of 'audacious'?",
         "answer": "Timid or cautious.",
         "category": "Vocabulary",
-        "tags": ["antonym", "courage"]
+        "tags": [
+            "antonym",
+            "courage"
+        ]
     },
     {
         "question": "What is the square root of 144?",
         "answer": "12",
         "category": "Math",
-        "tags": ["square roots", "arithmetic"]
+        "tags": [
+            "square roots",
+            "arithmetic"
+        ]
     },
     {
         "question": "Define 'anomaly'.",
         "answer": "Something that deviates from what is standard, normal, or expected.",
         "category": "Vocabulary",
-        "tags": ["definition", "exception"]
+        "tags": [
+            "definition",
+            "exception"
+        ]
     },
     {
         "question": "How should you structure a GRE Issue Essay?",
         "answer": "Introduction, two or more body paragraphs with examples, and a conclusion.",
         "category": "Writing",
-        "tags": ["GRE", "essay", "structure"]
-    }
+        "tags": [
+            "GRE",
+            "essay",
+            "structure"
+        ]
+    },
+    {
+        "question": "What is the definition of 'insipid'?",
+        "answer": "Lacking flavor or interest; dull.",
+        "category": "Vocabulary",
+        "tags": [
+            "verbal",
+            "definition"
+        ]
+    },
+    {
+        "question": "What is the definition of 'recalcitrant'?",
+        "answer": "Having an obstinately uncooperative attitude.",
+        "category": "Vocabulary",
+        "tags": [
+            "verbal",
+            "definition"
+        ]
+    },
+    {
+        "question": "What is the definition of 'munificent'?",
+        "answer": "Larger or more generous than is usual or necessary.",
+        "category": "Vocabulary",
+        "tags": [
+            "verbal",
+            "definition"
+        ]
+    },
+    {
+        "question": "What is the definition of 'pedantic'?",
+        "answer": "Overly concerned with minute details or formalisms.",
+        "category": "Vocabulary",
+        "tags": [
+            "verbal",
+            "definition"
+        ]
+    },
+    {
+        "question": "What is the definition of 'prodigal'?",
+        "answer": "Spending money or resources freely and recklessly; wastefully extravagant.",
+        "category": "Vocabulary",
+        "tags": [
+            "verbal",
+            "definition"
+        ]
+    },
+    {
+        "question": "What is the value of x in the equation: 2x + 3 = 15?",
+        "answer": "x = 6",
+        "category": "Math",
+        "tags": [
+            "linear equations",
+            "solving"
+        ]
+    },
+    {
+        "question": "What is the cube of 3?",
+        "answer": "27",
+        "category": "Math",
+        "tags": [
+            "exponents",
+            "arithmetic"
+        ]
+    },
+    {
+        "question": "Convert 20% to a fraction.",
+        "answer": "1/5",
+        "category": "Math",
+        "tags": [
+            "fractions",
+            "percentages"
+        ]
+    },
+    {
+        "question": "Simplify: \u221a81",
+        "answer": "9",
+        "category": "Math",
+        "tags": [
+            "square roots",
+            "simplify"
+        ]
+    },
+    {
+        "question": "What is 7 * 8?",
+        "answer": "56",
+        "category": "Math",
+        "tags": [
+            "multiplication",
+            "arithmetic"
+        ]
+    },
+    {
+        "question": "What is the key difference between the GRE Argument and Issue Essays?",
+        "answer": "The Argument Essay critiques reasoning, while the Issue Essay presents and supports your own viewpoint.",
+        "category": "Writing",
+        "tags": [
+            "GRE",
+            "essay"
+        ]
+    },
+    {
+        "question": "Name one effective strategy for brainstorming GRE essay topics.",
+        "answer": "Using the prompt to outline pros and cons of a position before writing.",
+        "category": "Writing",
+        "tags": [
+            "essay",
+            "strategy"
+        ]
+    },
+    {
+        "question": "What is the definition of 'erudite'?",
+        "answer": "Having or showing great knowledge or learning.",
+        "category": "Vocabulary",
+        "tags": [
+            "verbal",
+            "definition"
+        ]
+    },
+    {
+        "question": "What is the definition of 'sagacious'?",
+        "answer": "Having or showing keen mental discernment and good judgment.",
+        "category": "Vocabulary",
+        "tags": [
+            "verbal",
+            "definition"
+        ]
+    },
+    {
+        "question": "What is the definition of 'esoteric'?",
+        "answer": "Intended for or likely to be understood by only a small number of people with specialized knowledge.",
+        "category": "Vocabulary",
+        "tags": [
+            "verbal",
+            "definition"
+        ]
+    },
+    {
+        "question": "What is the definition of 'taciturn'?",
+        "answer": "Reserved or uncommunicative in speech.",
+        "category": "Vocabulary",
+        "tags": [
+            "verbal",
+            "definition"
+        ]
+    },
+    {
+        "question": "What is the definition of 'alacrity'?",
+        "answer": "Brisk and cheerful readiness.",
+        "category": "Vocabulary",
+        "tags": [
+            "verbal",
+            "definition"
+        ]
+    },
+    {
+        "question": "What is the least common multiple of 4 and 6?",
+        "answer": "12",
+        "category": "Math",
+        "tags": [
+            "LCM",
+            "arithmetic"
+        ]
+    },
+    {
+        "question": "Simplify: 3(2x + 4) - 5x",
+        "answer": "x + 12",
+        "category": "Math",
+        "tags": [
+            "algebra",
+            "simplify"
+        ]
+    },
+    {
+        "question": "What is the area of a circle with radius 3?",
+        "answer": "9\u03c0",
+        "category": "Math",
+        "tags": [
+            "geometry",
+            "area"
+        ]
+    },
+    {
+        "question": "What is 15% of 200?",
+        "answer": "30",
+        "category": "Math",
+        "tags": [
+            "percentages",
+            "arithmetic"
+        ]
+    },
+    {
+        "question": "Convert 2/5 to a decimal.",
+        "answer": "0.4",
+        "category": "Math",
+        "tags": [
+            "fractions",
+            "decimals"
+        ]
+    },
+    {
+        "question": "What is a common pitfall in GRE essays?",
+        "answer": "Failing to provide specific examples to support arguments.",
+        "category": "Writing",
+        "tags": [
+            "essay",
+            "mistakes"
+        ]
+    },
+    {
+        "question": "How can transitions improve a GRE essay?",
+        "answer": "They help clarify the relationship between ideas and maintain flow.",
+        "category": "Writing",
+        "tags": [
+            "essay",
+            "cohesion"
+        ]
+    },
+    [
+        {
+            "question": "How do scorers evaluate GRE essays?",
+            "answer": "They assess clarity, coherence, and how well you support your ideas with relevant examples.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "How important is grammar in the GRE Writing section?",
+            "answer": "While content is key, good grammar enhances clarity and readability, influencing your score.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "structure"
+            ]
+        },
+        {
+            "question": "How do scorers evaluate GRE essays?",
+            "answer": "They assess clarity, coherence, and how well you support your ideas with relevant examples.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "What is the best way to prepare for the GRE Argument Essay?",
+            "answer": "Practice evaluating logic, identify assumptions, and write concise critiques of flawed reasoning.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "What is the best way to prepare for the GRE Argument Essay?",
+            "answer": "Practice evaluating logic, identify assumptions, and write concise critiques of flawed reasoning.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "timing"
+            ]
+        },
+        {
+            "question": "How do scorers evaluate GRE essays?",
+            "answer": "They assess clarity, coherence, and how well you support your ideas with relevant examples.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "What is the best way to prepare for the GRE Argument Essay?",
+            "answer": "Practice evaluating logic, identify assumptions, and write concise critiques of flawed reasoning.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "How important is grammar in the GRE Writing section?",
+            "answer": "While content is key, good grammar enhances clarity and readability, influencing your score.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "What is the best way to prepare for the GRE Argument Essay?",
+            "answer": "Practice evaluating logic, identify assumptions, and write concise critiques of flawed reasoning.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "timing"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "timing"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "timing"
+            ]
+        },
+        {
+            "question": "What are common logical fallacies to watch for in GRE Argument prompts?",
+            "answer": "Look out for hasty generalizations, false cause, and unwarranted assumptions.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "How do scorers evaluate GRE essays?",
+            "answer": "They assess clarity, coherence, and how well you support your ideas with relevant examples.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "structure"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "How important is grammar in the GRE Writing section?",
+            "answer": "While content is key, good grammar enhances clarity and readability, influencing your score.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "timing"
+            ]
+        },
+        {
+            "question": "What is the best way to prepare for the GRE Argument Essay?",
+            "answer": "Practice evaluating logic, identify assumptions, and write concise critiques of flawed reasoning.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "structure"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "How important is grammar in the GRE Writing section?",
+            "answer": "While content is key, good grammar enhances clarity and readability, influencing your score.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "What are common logical fallacies to watch for in GRE Argument prompts?",
+            "answer": "Look out for hasty generalizations, false cause, and unwarranted assumptions.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "timing"
+            ]
+        },
+        {
+            "question": "How important is grammar in the GRE Writing section?",
+            "answer": "While content is key, good grammar enhances clarity and readability, influencing your score.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "How do scorers evaluate GRE essays?",
+            "answer": "They assess clarity, coherence, and how well you support your ideas with relevant examples.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "timing"
+            ]
+        },
+        {
+            "question": "How important is grammar in the GRE Writing section?",
+            "answer": "While content is key, good grammar enhances clarity and readability, influencing your score.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "What are common logical fallacies to watch for in GRE Argument prompts?",
+            "answer": "Look out for hasty generalizations, false cause, and unwarranted assumptions.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "structure"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "structure"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "timing"
+            ]
+        },
+        {
+            "question": "What is the best way to prepare for the GRE Argument Essay?",
+            "answer": "Practice evaluating logic, identify assumptions, and write concise critiques of flawed reasoning.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "timing"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "structure"
+            ]
+        },
+        {
+            "question": "What are common logical fallacies to watch for in GRE Argument prompts?",
+            "answer": "Look out for hasty generalizations, false cause, and unwarranted assumptions.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "What is the best way to prepare for the GRE Argument Essay?",
+            "answer": "Practice evaluating logic, identify assumptions, and write concise critiques of flawed reasoning.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "What is the best way to prepare for the GRE Argument Essay?",
+            "answer": "Practice evaluating logic, identify assumptions, and write concise critiques of flawed reasoning.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "timing"
+            ]
+        },
+        {
+            "question": "What are common logical fallacies to watch for in GRE Argument prompts?",
+            "answer": "Look out for hasty generalizations, false cause, and unwarranted assumptions.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "What are common logical fallacies to watch for in GRE Argument prompts?",
+            "answer": "Look out for hasty generalizations, false cause, and unwarranted assumptions.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "What is the best way to prepare for the GRE Argument Essay?",
+            "answer": "Practice evaluating logic, identify assumptions, and write concise critiques of flawed reasoning.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "structure"
+            ]
+        },
+        {
+            "question": "How important is grammar in the GRE Writing section?",
+            "answer": "While content is key, good grammar enhances clarity and readability, influencing your score.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "structure"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "timing"
+            ]
+        },
+        {
+            "question": "How important is grammar in the GRE Writing section?",
+            "answer": "While content is key, good grammar enhances clarity and readability, influencing your score.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "Should you take a strong stance in the Issue Essay?",
+            "answer": "Yes, a clear position makes your essay more persuasive and easier to follow.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "structure"
+            ]
+        },
+        {
+            "question": "How important is grammar in the GRE Writing section?",
+            "answer": "While content is key, good grammar enhances clarity and readability, influencing your score.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "What are common logical fallacies to watch for in GRE Argument prompts?",
+            "answer": "Look out for hasty generalizations, false cause, and unwarranted assumptions.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "What is the best way to prepare for the GRE Argument Essay?",
+            "answer": "Practice evaluating logic, identify assumptions, and write concise critiques of flawed reasoning.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "How do scorers evaluate GRE essays?",
+            "answer": "They assess clarity, coherence, and how well you support your ideas with relevant examples.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "How important is grammar in the GRE Writing section?",
+            "answer": "While content is key, good grammar enhances clarity and readability, influencing your score.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "How do scorers evaluate GRE essays?",
+            "answer": "They assess clarity, coherence, and how well you support your ideas with relevant examples.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "essay"
+            ]
+        },
+        {
+            "question": "How important is grammar in the GRE Writing section?",
+            "answer": "While content is key, good grammar enhances clarity and readability, influencing your score.",
+            "category": "Writing",
+            "tags": [
+                "GRE",
+                "strategy"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "How is the GRE Quantitative section scored?",
+            "answer": "It's scored on a scale of 130\u2013170 in one-point increments, based on the number of correct responses.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "What is a good strategy for GRE multiple-choice math questions?",
+            "answer": "Eliminate clearly wrong answers and plug in numbers to test the remaining options.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "algebra"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "algebra"
+            ]
+        },
+        {
+            "question": "How can you improve your mental math for the GRE?",
+            "answer": "Practice arithmetic shortcuts and estimation techniques regularly.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "What is a good strategy for GRE multiple-choice math questions?",
+            "answer": "Eliminate clearly wrong answers and plug in numbers to test the remaining options.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "How is the GRE Quantitative section scored?",
+            "answer": "It's scored on a scale of 130\u2013170 in one-point increments, based on the number of correct responses.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "algebra"
+            ]
+        },
+        {
+            "question": "How can you improve your mental math for the GRE?",
+            "answer": "Practice arithmetic shortcuts and estimation techniques regularly.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "What is a good strategy for GRE multiple-choice math questions?",
+            "answer": "Eliminate clearly wrong answers and plug in numbers to test the remaining options.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "How is the GRE Quantitative section scored?",
+            "answer": "It's scored on a scale of 130\u2013170 in one-point increments, based on the number of correct responses.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "What is a good strategy for GRE multiple-choice math questions?",
+            "answer": "Eliminate clearly wrong answers and plug in numbers to test the remaining options.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "What is a good strategy for GRE multiple-choice math questions?",
+            "answer": "Eliminate clearly wrong answers and plug in numbers to test the remaining options.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "algebra"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "problem-solving"
+            ]
+        },
+        {
+            "question": "How can you improve your mental math for the GRE?",
+            "answer": "Practice arithmetic shortcuts and estimation techniques regularly.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "What topics are covered in the GRE Quantitative section?",
+            "answer": "Algebra, arithmetic, geometry, and data analysis are the core topics.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "geometry"
+            ]
+        },
+        {
+            "question": "How is the GRE Quantitative section scored?",
+            "answer": "It's scored on a scale of 130\u2013170 in one-point increments, based on the number of correct responses.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "geometry"
+            ]
+        },
+        {
+            "question": "How can you improve your mental math for the GRE?",
+            "answer": "Practice arithmetic shortcuts and estimation techniques regularly.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "problem-solving"
+            ]
+        },
+        {
+            "question": "What topics are covered in the GRE Quantitative section?",
+            "answer": "Algebra, arithmetic, geometry, and data analysis are the core topics.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "algebra"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "geometry"
+            ]
+        },
+        {
+            "question": "What topics are covered in the GRE Quantitative section?",
+            "answer": "Algebra, arithmetic, geometry, and data analysis are the core topics.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "algebra"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "geometry"
+            ]
+        },
+        {
+            "question": "How can you improve your mental math for the GRE?",
+            "answer": "Practice arithmetic shortcuts and estimation techniques regularly.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "problem-solving"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "problem-solving"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "problem-solving"
+            ]
+        },
+        {
+            "question": "What is a good strategy for GRE multiple-choice math questions?",
+            "answer": "Eliminate clearly wrong answers and plug in numbers to test the remaining options.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "problem-solving"
+            ]
+        },
+        {
+            "question": "What topics are covered in the GRE Quantitative section?",
+            "answer": "Algebra, arithmetic, geometry, and data analysis are the core topics.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "problem-solving"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "algebra"
+            ]
+        },
+        {
+            "question": "How can you improve your mental math for the GRE?",
+            "answer": "Practice arithmetic shortcuts and estimation techniques regularly.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "geometry"
+            ]
+        },
+        {
+            "question": "What topics are covered in the GRE Quantitative section?",
+            "answer": "Algebra, arithmetic, geometry, and data analysis are the core topics.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "geometry"
+            ]
+        },
+        {
+            "question": "How is the GRE Quantitative section scored?",
+            "answer": "It's scored on a scale of 130\u2013170 in one-point increments, based on the number of correct responses.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "problem-solving"
+            ]
+        },
+        {
+            "question": "What is a good strategy for GRE multiple-choice math questions?",
+            "answer": "Eliminate clearly wrong answers and plug in numbers to test the remaining options.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "geometry"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "problem-solving"
+            ]
+        },
+        {
+            "question": "How is the GRE Quantitative section scored?",
+            "answer": "It's scored on a scale of 130\u2013170 in one-point increments, based on the number of correct responses.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "algebra"
+            ]
+        },
+        {
+            "question": "What topics are covered in the GRE Quantitative section?",
+            "answer": "Algebra, arithmetic, geometry, and data analysis are the core topics.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "What topics are covered in the GRE Quantitative section?",
+            "answer": "Algebra, arithmetic, geometry, and data analysis are the core topics.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "How can you improve your mental math for the GRE?",
+            "answer": "Practice arithmetic shortcuts and estimation techniques regularly.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "geometry"
+            ]
+        },
+        {
+            "question": "How can you improve your mental math for the GRE?",
+            "answer": "Practice arithmetic shortcuts and estimation techniques regularly.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "algebra"
+            ]
+        },
+        {
+            "question": "How can you improve your mental math for the GRE?",
+            "answer": "Practice arithmetic shortcuts and estimation techniques regularly.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "geometry"
+            ]
+        },
+        {
+            "question": "What is a good strategy for GRE multiple-choice math questions?",
+            "answer": "Eliminate clearly wrong answers and plug in numbers to test the remaining options.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "How is the GRE Quantitative section scored?",
+            "answer": "It's scored on a scale of 130\u2013170 in one-point increments, based on the number of correct responses.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "problem-solving"
+            ]
+        },
+        {
+            "question": "What topics are covered in the GRE Quantitative section?",
+            "answer": "Algebra, arithmetic, geometry, and data analysis are the core topics.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "geometry"
+            ]
+        },
+        {
+            "question": "How is the GRE Quantitative section scored?",
+            "answer": "It's scored on a scale of 130\u2013170 in one-point increments, based on the number of correct responses.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "problem-solving"
+            ]
+        },
+        {
+            "question": "How is the GRE Quantitative section scored?",
+            "answer": "It's scored on a scale of 130\u2013170 in one-point increments, based on the number of correct responses.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "Why are data interpretation sets important on the GRE?",
+            "answer": "They test your ability to analyze and draw conclusions from charts and tables.",
+            "category": "Math",
+            "tags": [
+                "GRE",
+                "quantitative"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "What is the difference between 'mitigate' and 'exacerbate'?",
+            "answer": "'Mitigate' means to make less severe, while 'exacerbate' means to make worse.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "synonym"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "What is the difference between 'mitigate' and 'exacerbate'?",
+            "answer": "'Mitigate' means to make less severe, while 'exacerbate' means to make worse.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "synonym"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "Why is context important in GRE vocabulary questions?",
+            "answer": "It helps determine the correct meaning or synonym of a word based on its usage.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "verbal"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "What does 'laconic' mean?",
+            "answer": "'Laconic' means using very few words, being concise to the point of seeming rude or mysterious.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "verbal"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "verbal"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "What does 'laconic' mean?",
+            "answer": "'Laconic' means using very few words, being concise to the point of seeming rude or mysterious.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "What does 'laconic' mean?",
+            "answer": "'Laconic' means using very few words, being concise to the point of seeming rude or mysterious.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "synonym"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "synonym"
+            ]
+        },
+        {
+            "question": "What is the difference between 'mitigate' and 'exacerbate'?",
+            "answer": "'Mitigate' means to make less severe, while 'exacerbate' means to make worse.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "verbal"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "verbal"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "synonym"
+            ]
+        },
+        {
+            "question": "What does 'laconic' mean?",
+            "answer": "'Laconic' means using very few words, being concise to the point of seeming rude or mysterious.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "What is the difference between 'mitigate' and 'exacerbate'?",
+            "answer": "'Mitigate' means to make less severe, while 'exacerbate' means to make worse.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "What does 'laconic' mean?",
+            "answer": "'Laconic' means using very few words, being concise to the point of seeming rude or mysterious.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "What does 'laconic' mean?",
+            "answer": "'Laconic' means using very few words, being concise to the point of seeming rude or mysterious.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "synonym"
+            ]
+        },
+        {
+            "question": "What does 'laconic' mean?",
+            "answer": "'Laconic' means using very few words, being concise to the point of seeming rude or mysterious.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "synonym"
+            ]
+        },
+        {
+            "question": "What is the difference between 'mitigate' and 'exacerbate'?",
+            "answer": "'Mitigate' means to make less severe, while 'exacerbate' means to make worse.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "Why is context important in GRE vocabulary questions?",
+            "answer": "It helps determine the correct meaning or synonym of a word based on its usage.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "What does 'laconic' mean?",
+            "answer": "'Laconic' means using very few words, being concise to the point of seeming rude or mysterious.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "verbal"
+            ]
+        },
+        {
+            "question": "Why is context important in GRE vocabulary questions?",
+            "answer": "It helps determine the correct meaning or synonym of a word based on its usage.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "What does 'laconic' mean?",
+            "answer": "'Laconic' means using very few words, being concise to the point of seeming rude or mysterious.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "What is the difference between 'mitigate' and 'exacerbate'?",
+            "answer": "'Mitigate' means to make less severe, while 'exacerbate' means to make worse.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "synonym"
+            ]
+        },
+        {
+            "question": "Why is context important in GRE vocabulary questions?",
+            "answer": "It helps determine the correct meaning or synonym of a word based on its usage.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "verbal"
+            ]
+        },
+        {
+            "question": "Why is context important in GRE vocabulary questions?",
+            "answer": "It helps determine the correct meaning or synonym of a word based on its usage.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "synonym"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "Why is context important in GRE vocabulary questions?",
+            "answer": "It helps determine the correct meaning or synonym of a word based on its usage.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "synonym"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "What does 'laconic' mean?",
+            "answer": "'Laconic' means using very few words, being concise to the point of seeming rude or mysterious.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "How can you study vocabulary efficiently for the GRE?",
+            "answer": "Use flashcards, spaced repetition systems, and read complex texts regularly.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "antonym"
+            ]
+        },
+        {
+            "question": "Why is context important in GRE vocabulary questions?",
+            "answer": "It helps determine the correct meaning or synonym of a word based on its usage.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "verbal"
+            ]
+        },
+        {
+            "question": "What are high-frequency GRE vocabulary words?",
+            "answer": "Words like 'ephemeral', 'obfuscate', and 'anomaly' appear frequently on the GRE.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "definition"
+            ]
+        },
+        {
+            "question": "Why is context important in GRE vocabulary questions?",
+            "answer": "It helps determine the correct meaning or synonym of a word based on its usage.",
+            "category": "Vocabulary",
+            "tags": [
+                "GRE",
+                "verbal"
+            ]
+        }
+    ]
 ]
